@@ -1,0 +1,22 @@
+.transaction_history {
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-size: 18px;
+  width: 350px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
+}
+
+.transaction_history_body > tr:hover {
+  background-color: rgba(104, 104, 104, 0.685);
+  color: white;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
+
+table th {
+  background-color: rgba(89, 172, 172, 0.419);
+}
